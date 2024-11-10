@@ -1,0 +1,210 @@
+# 小屁妞打游戏屏蔽广告
+# ||leagues.api.beresnev.games^
+||users.beresnev.games^
+# 狗头
+||mssdk-sg-bu.byteoversea.com^$important
+# ||connectivitycheck.gstatic.com^$important
+# 小米更新
+||update.intl.miui.com^
+# 小屁妞看微信评论
+@@||mp.weixin.qq.com^$important
+@@||mtteve.beacon.qq.com^$important
+@@||mttstr.beacon.qq.com^$important
+# 京东看评价
+@@||img30.360buyimg.com^$important
+@@||static.360buyimg.com^$important
+# 大黄网解除
+@@||theporndude.com^$important
+# 谷歌同步使用解除
+@@||animeidhentai.com^$important
+@@||activity.windows.com^$important
+@@||clients4.google.com^$important
+@@||www.googletagmanager.com^$important
+@@||www.google-analytics.com^$important
+@@||clientservices.googleapis.com^$important
+@@||clients2.google.com^$important
+@@||events.gfe.nvidia.com^$important
+@@||ssl.google-analytics.com^$important
+@@||www.xnxx.com^$important
+@@||google.com^$important
+@@||googleapis.com^$important
+@@||google-analytics.com^$important
+@@||googleusercontent.com^$important
+@@||googletagmanager.com^$important
+# QQ下载更新
+@@||down.qq.com^$important
+# 小米摄像头链接
+@@||api.io.mi.com^$important
+@@||tracking.miui.com^$important
+@@||api.account.xiaomi.com^$important
+# 放过阿里云
+@@||arms-retcode.aliyuncs.com^$important
+@@||ynuf.aliapp.org^$important
+@@||ynuf.alipay.com^$important
+@@||cdn.ynuf.aliapp.org^$important
+@@||beacon-api.aliyuncs.com^$important
+# 小米更新
+||update.miui.com^$important
+||port.sec.miui.com^$important
+||data.mistat.xiaomi.com^$important
+# 小屁妞微信登陆
+@@||shminorshort.weixin.qq.com^$important
+@@||res.wx.qq.com^$important
+@@||minorshort.weixin.qq.com^$important
+@@||wxsnsdythumb.wxs.qq.com^$important
+# 禁用百度
+||baidu.com^
+@@||www.yxcjav.pw^$important
+@@||api.vip.miui.com^$important
+# 解除top10黄页
+@@||spankbang.com^$important
+@@||www.redtube.com^$important
+@@||bongacams.com^$important
+@@||chaturbate.com^$important
+@@||www.youporn.com^$important
+@@||www.livejasmin.com^$important
+@@||jp.xhamster.com^$important
+@@||cn.pornhub.com^$important
+@@||pornhub.com^$important
+@@||www.xvideos.com^$important
+@@||xvideos.com^$important
+@@||ulogs.umeng.com^$important
+@@||peapay.top^$important
+@@||ip.qq.com^$important
+@@||clickserve.dartsearch.net^$important
+# 小米手机wifi无法联网错误提示
+@@||api.tw06.xlmc.sec.miui.com^$important
+# nox模拟器广告
+||api-new.bignox.com^$important
+||appcenter-api.bignox.com^$important
+||res.noxmobi.com^$important
+||launcher-api.bignox.com^$important
+||ssp-3-9f58-hk.trnox.com^$important
+||api.bignox.com^$important
+||bianxian-log.bignox.com^$important
+# 禁用quest2更新
+# ||com.oculus.updater^$important
+# ||quest.com^$important
+# ||update.quest.com^$important
+# ||support.quest.com^$important
+# ||dl.quest.com^$important
+# ||software.dell.com^$important
+# ||download.microsoft.com^$important
+# ||update.microsoft.com^$important
+# ||wu.microsoft.com^$important
+||client.wns.windows.com^$important
+# 禁IDM弹窗更新
+||internetdownloadmanager.com^$important
+# 禁蓝蝶夜神服务
+||bluekai.com^$important
+||bluestacks.com^$important
+||bignox.com^$important
+||noxmobi.com^$important
+||trnox.com^$important
+# 解除小雅屏蔽
+@@||api.xhofe.top^$important
+@@||xiaoyahelper.zengge99.eu.org^$important
+@@||xiaoyahelper.zngle.cf^$important
+# 禁止windos 更新
+||au.download.windowsupdate.com^$important
+||slscr.update.microsoft.com^$important
+||update.microsoft.com^$important
+||cp601.prod.do.dsp.mp.microsoft.com^$important
+||1a.au.download.windowsupdate.com^$important
+||download.windowsupdate.com^$important
+||windowsupdate.microsoft.com^$important
+||fe2cr.update.microsoft.com^$important
+||ctldl.windowsupdate.com^$important
+||zfc.windowsupdate1.com^$important
+||client.wns.windows.com^$important
+||download.windowsupdate.com^$important
+||windowsupdate.com^$important
+||v10.events.data.microsoft.com^$important
+||microsoft.com^$important
+# 不知道是什么暂时保留
+@@||ds.163.com^$important
+@@||cbg.163.com^$important
+||xiaomi2.p2psy2.io.mi.com^$important
+@@||www.btdx8.com^$important
+||officeclient.microsoft.com^$important
+||ecs.office.com^$important
+||substrate.office.com^$important
+@@||163.com^$important
+@@||www.pornhub.com^$important
+@@||ww16.nfstars.net^$important
+@@||ulogs.umengcloud.com^$important
+@@||aaid.umeng.com^$important
+@@||a.app.qq.com^$important
+@@||px.ucweb.com^$important
+||upload-cdn.orayimg.com^$important
+||cdn.orayimg.com^$important
+@@||ip.affiliate.dmm.com^$important
+@@||refer.ccbill.com^$important
+||www.bing.com^$important
+||cn.bing.com^$important
+@@||dash.996cloud.top^$important
+@@||notepad.pw^$important
+@@||xianyuwangluo.top^$important
+@@||xiaoyapush.zngle.cf^$important
+@@||yfjc.cfd^$important
+@@||ktmcloud.top^$important
+# # # # # # # # # # # # # # # # # # # # # # # # # 
+||ludashi.com^$important
+@@||click.discord.com^$important
+@@||www.a123pay.top^$important
+@@||sanfencdn9.com^$important
+# 针对小米电视禁用用不到的请求
+||xiaomi.com^$client='MI-TV'
+||pool.ntp.org^$client='MI-TV'
+||gitv.tv^$client='MI-TV'
+||mi.com^$client='MI-TV'
+||ksyun.com^$client='MI-TV'
+||vcloud.ks-live.com^$client='MI-TV'
+||loc.map.baidu.com^$client='MI-TV'
+||ottcn.com^$client='MI-TV'
+||volces.com^$client='MI-TV'
+||lebo.cn^$client='MI-TV'
+||lebo.com^$client='MI-TV'
+||kugou.com^$client='MI-TV'
+# # # # # # # # # # # # # # # # # # # # # # # # #
+# 自定义排除拦截列表
+@@||sub.sanfen017.xyz^$important
+@@||jh.xianyuwangzhi.top^$important
+@@||fs.xianyuwangzhi.top^$important
+@@||pan.quark.cn^$important
+@@||fast.uc.cn^$important
+@@||brko.admobe.com^$important
+@@||pan.3ppp.top^$important
+@@||localhost^$important
+@@||ce-widget.cn-shenzhen.log.aliyuncs.com^$important
+@@||guangguang.cloudvideocdn.taobao.com^$important
+@@||chatgpt.com^$important
+@@||evtubescms.phncdn.com^$important
+@@||s.youtube.com^$important
+@@||wxy-ul.onethingpcs.com^$important
+@@||isvip0xyajs-data.xycdn.com^$important
+# 新增拦截解除区域
+@@||flash.xiaohongshu.com^$important
+@@||referee.xiaohongshu.com^$important
+@@||baidu.com^$client='N5105'
+@@||images1-mall.onethingpcs.com^$client='K40g'
+# 新增拦截解除区域
+@@||umengacs.m.taobao.com^$client='K40g'
+@@||resolve.umeng.com^$client='K40g'
+# 解除网心云限制
+# @@||errnewlog.umeng.com^$client='192.168.11.163'
+# @@||device-box.onethingpcs.com^$client='192.168.11.163'
+# @@||errnewlog.umeng.com^$client='192.168.11.163'
+# @@||amdcopen.m.umeng.com^$client='192.168.11.163'
+# @@||images1-mall.onethingpcs.com^$client='192.168.11.163'
+# @@||api-mall-box.onethingpcs.com^$client='192.168.11.163'
+# @@||h5-box.onethingpcs.com^$client='192.168.11.163'
+# @@||msg.umengcloud.com^$client='192.168.11.163'
+# @@||wxy-ml.onethingpcs.com^$client='192.168.11.163'
+# @@||log.tbs.qq.com^$client='192.168.11.163'
+# @@||cnlogs.umengcloud.com^$client='192.168.11.163'
+# @@||reward-box.onethingpcs.com^$client='192.168.11.163'
+# @@||cfg.imtt.qq.com^$client='192.168.11.163'
+# @@||umengacs.m.taobao.com^$client='192.168.11.163'
+# @@||resolve.umeng.com^$client='192.168.11.163'
+# 新增拦截解除区域
