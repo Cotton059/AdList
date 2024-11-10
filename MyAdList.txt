@@ -208,3 +208,4 @@
 # @@||umengacs.m.taobao.com^$client='192.168.11.163'
 # @@||resolve.umeng.com^$client='192.168.11.163'
 # 新增拦截解除区域
+# 新增拦截解除区域 更新测试
