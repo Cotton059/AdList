@@ -394,3 +394,8 @@
 @@||broadcast.chat.bilibili.com^$important
 @@||clickserve.dartsearch.net^$important
 @@||click.discord.com^$important
+@@||game.eve.mdt.qq.com^$important
+@@||game.str.mdt.qq.com^$important
+@@||dns.weixin.qq.com.cn^$important
+@@||qappcenterv6.3g.qq.com^$important
+@@||up-hl.3g.qq.com^$important
