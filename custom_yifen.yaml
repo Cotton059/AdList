@@ -1,0 +1,4 @@
+payload:
+  # === 核心私有规则：DMM 与查 IP 服务 ===
+  - DOMAIN-KEYWORD,dmm
+  - DOMAIN-SUFFIX,ip.sb
