@@ -1,0 +1,13 @@
+payload:
+  # === 1. 强制不翻墙的特定设备 (源 IP 直连) ===
+  - SRC-IP-CIDR,172.17.0.3/32
+  - SRC-IP-CIDR,192.168.11.246/32
+
+  # === 2. 小雅 Alist 及个人私有服务直连 ===
+  - DOMAIN-SUFFIX,api.nn.ci
+  - DOMAIN-SUFFIX,api-cf.nn.ci
+  - DOMAIN-SUFFIX,api.xhofe.top
+
+  # === 3. 机场订阅防死循环 ===
+  - DOMAIN-KEYWORD,sub.sanfen010.xyz
+  - DOMAIN-KEYWORD,sub.sanfen017.xyz
