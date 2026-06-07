@@ -399,3 +399,5 @@
 @@||dns.weixin.qq.com.cn^$important
 @@||qappcenterv6.3g.qq.com^$important
 @@||up-hl.3g.qq.com^$important
+@@||static-xl.a.88cdn.com^$important
+@@||backstage-img-ssl.a.88cdn.com^$important
