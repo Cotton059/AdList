@@ -1,0 +1,86 @@
+payload:
+  # === 0. 特定海外私有域名强制走自选代理 ===
+  - DOMAIN-SUFFIX,duckyci.com
+
+  # === 1. Google 静态资源与全球 CDN ===
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,ggpht.com
+  - DOMAIN-SUFFIX,googlezip.net
+  - DOMAIN-SUFFIX,gmodules.com
+
+  # === 2. Gemini & DeepMind AI 矩阵 ===
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,generativeai.google
+  - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,deepmind.google
+  - DOMAIN-SUFFIX,ai.google.com
+  - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,makersuite.google.com
+  - DOMAIN-SUFFIX,bard.google.com
+
+  # === 3. Google Play 与 Android 系统级分发 ===
+  - DOMAIN-SUFFIX,play.google.com
+  - DOMAIN-SUFFIX,android.com
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
+  - DOMAIN-SUFFIX,gvt0.com
+  - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,gvt2.com
+  - DOMAIN-SUFFIX,gvt3.com
+  - DOMAIN-SUFFIX,gvt4.com
+  - DOMAIN-SUFFIX,gvt5.com
+  - DOMAIN-SUFFIX,gvt6.com
+  - DOMAIN-SUFFIX,gvt7.com
+  - DOMAIN-SUFFIX,gvt9.com
+
+  # === 4. Google 核心底层骨干网、短链接与服务接口 ===
+  - DOMAIN-SUFFIX,1e100.net
+  - DOMAIN-SUFFIX,g.co
+  - DOMAIN-SUFFIX,googlegroups.com
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,googleapis.cn
+  - DOMAIN-SUFFIX,appspot.com
+  - DOMAIN-SUFFIX,firebaseio.com
+  - DOMAIN-SUFFIX,dev
+  - DOMAIN-SUFFIX,googlesource.com
+
+  # === 5. 验证码服务 ===
+  - DOMAIN-SUFFIX,recaptcha.net
+  - DOMAIN-SUFFIX,google.com.tw
+  - DOMAIN-SUFFIX,google.co.jp
+
+  # === 6. Google 基础主域名与生产力工具 ===
+  - DOMAIN-SUFFIX,google.com
+  - DOMAIN-SUFFIX,google.com.hk
+  - DOMAIN-SUFFIX,googl.com
+  - DOMAIN-SUFFIX,goo.gl
+  - DOMAIN-SUFFIX,google.cn
+  - DOMAIN-SUFFIX,gmail.com
+  - DOMAIN-SUFFIX,googleworkspace.com
+  - DOMAIN-SUFFIX,googledrive.com
+  - DOMAIN-SUFFIX,googleweblight.com
+
+  # === 7. YouTube 流媒体服务 ===
+  - DOMAIN-SUFFIX,youtube.com
+  - DOMAIN-SUFFIX,youtu.be
+  - DOMAIN-SUFFIX,ytimg.com
+  - DOMAIN-SUFFIX,googlevideo.com
+
+  # === 8. 博客、附属内容池与广告分析 ===
+  - DOMAIN-SUFFIX,blogger.com
+  - DOMAIN-SUFFIX,blogspot.com
+  - DOMAIN-SUFFIX,withgoogle.com
+  - DOMAIN-SUFFIX,googletagmanager.com
+  - DOMAIN-SUFFIX,google-analytics.com
+  - DOMAIN-SUFFIX,googlesyndication.com
+  - DOMAIN-SUFFIX,doubleclick.net
+
+  # === 9. 强力关键词模糊匹配 ===
+  - DOMAIN-KEYWORD,google
+  - DOMAIN-KEYWORD,gemini
+  - DOMAIN-KEYWORD,gmail
+  - DOMAIN-KEYWORD,gstatic
+  - DOMAIN-KEYWORD,ggpht
+  - DOMAIN-KEYWORD,youtube
+  - DOMAIN-KEYWORD,blogspot
+  - DOMAIN-KEYWORD,recaptcha
