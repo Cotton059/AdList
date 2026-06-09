@@ -84,3 +84,18 @@ payload:
   - DOMAIN-KEYWORD,youtube
   - DOMAIN-KEYWORD,blogspot
   - DOMAIN-KEYWORD,recaptcha
+
+  # === 10. Google 证书与核心 API 服务 (日志提取补充) ===
+  # 解决日志中 c.pki.goog 等证书验证超时的问题
+  - DOMAIN-SUFFIX,pki.goog
+  # 涵盖 drivefrontend-pa.googleapis.com, play.googleapis.com 等 API 调用
+  - DOMAIN-SUFFIX,googleapis.com
+  # 补充主域名后缀匹配（比 Keyword 匹配效率更高、更精准）
+  - DOMAIN-SUFFIX,google.com
+
+  # === 11. 其他海外软件服务 (日志提取补充) ===
+  # 涵盖 static.adtidy.org (AdGuard 拦截规则更新/校验服务)
+  - DOMAIN-SUFFIX,adtidy.org
+  # 涵盖 events.gfe.nvidia.com (Nvidia GeForce Experience 遥测与服务)
+  - DOMAIN-SUFFIX,nvidia.com
+  - DOMAIN-SUFFIX,gfe.nvidia.com
