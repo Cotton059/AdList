@@ -99,3 +99,85 @@ payload:
   # 涵盖 events.gfe.nvidia.com (Nvidia GeForce Experience 遥测与服务)
   - DOMAIN-SUFFIX,nvidia.com
   - DOMAIN-SUFFIX,gfe.nvidia.com
+
+  # === 12. OpenAI & ChatGPT 全家桶 ===
+  - DOMAIN-SUFFIX,openai.com      # OpenAI 官网与 API
+  - DOMAIN-SUFFIX,chatgpt.com     # ChatGPT 新主域名
+  - DOMAIN-SUFFIX,oaistatic.com   # ChatGPT 静态资源 CDN
+  - DOMAIN-SUFFIX,oaiusercontent.com # ChatGPT 用户上传内容/图片生成 CDN
+  - DOMAIN-SUFFIX,sentry.io       # OpenAI 底层错误日志上报（不翻墙前端会报错）
+  - DOMAIN-SUFFIX,intercom.io     # ChatGPT 帮助中心与客服系统
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-KEYWORD,chatgpt
+
+  # === 13. Anthropic Claude AI 矩阵 ===
+  - DOMAIN-SUFFIX,claude.ai       # Claude 交互主站
+  - DOMAIN-SUFFIX,anthropic.com    # Anthropic 官网与 API
+  - DOMAIN-KEYWORD,anthropic
+  - DOMAIN-KEYWORD,claude
+
+  # === 14. GitHub 开发者生态与源码托管 ===
+  - DOMAIN-SUFFIX,github.com      # GitHub 主站
+  - DOMAIN-SUFFIX,github.io       # GitHub Pages 静态页
+  - DOMAIN-SUFFIX,githubassets.com # GitHub 网页静态资源
+  - DOMAIN-SUFFIX,githubusercontent.com # GitHub 原始文件/Gist/图片/Release 释放包
+  - DOMAIN-SUFFIX,githubcopilot.com # GitHub Copilot 编程AI
+  - DOMAIN-SUFFIX,git-scm.com     # Git 官网
+  - DOMAIN-SUFFIX,gitlab.com      # GitLab 托管
+  - DOMAIN-KEYWORD,github
+
+  # === 15. Microsoft & Windows 核心海外服务与 Copilot ===
+  - DOMAIN-SUFFIX,copilot.microsoft.com # 微软 Copilot
+  - DOMAIN-SUFFIX,bing.com        # 必应海外版（防国内跳转及国内脏解析）
+  - DOMAIN-SUFFIX,bing.net        # 必应静态资源
+  - DOMAIN-SUFFIX,skype.com       # Skype 通讯
+  - DOMAIN-SUFFIX,onedrive.com    # OneDrive 海外版
+  - DOMAIN-SUFFIX,live.com        # 微软账户登录授权
+  - DOMAIN-SUFFIX,login.live.com  # 微软统一认证接口
+  - DOMAIN-SUFFIX,msauth.net      # 微软多因素认证中心
+
+  # === 16. Telegram 极速通讯 ===
+  - DOMAIN-SUFFIX,telegram.org    # Telegram 官网与 Web 端
+  - DOMAIN-SUFFIX,t.me            # Telegram 短链接
+  - DOMAIN-SUFFIX,tdesktop.com    # Telegram 桌面端
+  - DOMAIN-SUFFIX,telega.one      # 官方节点中转
+  - DOMAIN-KEYWORD,telegram
+
+  # === 17. X (Twitter) 社交矩阵 ===
+  - DOMAIN-SUFFIX,x.com           # X 主站
+  - DOMAIN-SUFFIX,twitter.com     # Twitter 老域名
+  - DOMAIN-SUFFIX,twimg.com       # X/Twitter 核心图片与视频 CDN
+  - DOMAIN-SUFFIX,t.co            # X 官方短链接
+  - DOMAIN-KEYWORD,twitter
+
+  # === 18. Meta 社交与通讯体系 (FB/IG/WhatsApp) ===
+  - DOMAIN-SUFFIX,facebook.com    # Facebook
+  - DOMAIN-SUFFIX,fbcdn.net       # Facebook 静态资源与图片
+  - DOMAIN-SUFFIX,instagram.com   # Instagram
+  - DOMAIN-SUFFIX,cdninstagram.com # Instagram 核心图片与短视频 CDN
+  - DOMAIN-SUFFIX,whatsapp.com    # WhatsApp 官网
+  - DOMAIN-SUFFIX,whatsapp.net    # WhatsApp 核心通讯路由与多媒体流
+  - DOMAIN-KEYWORD,instagram
+  - DOMAIN-KEYWORD,whatsapp
+
+  # === 19. 常用海外流媒体与内容平台 (Netflix/Disney+/Spotify) ===
+  - DOMAIN-SUFFIX,netflix.com     # Netflix 官网与鉴权
+  - DOMAIN-SUFFIX,nflxvideo.net   # Netflix 核心流媒体视频 CDN
+  - DOMAIN-SUFFIX,disneyplus.com  # Disney+
+  - DOMAIN-SUFFIX,spotify.com     # Spotify 音乐主站
+  - DOMAIN-SUFFIX,scdn.co         # Spotify 音乐 CDN
+  - DOMAIN-SUFFIX,twitch.tv       # Twitch 直播
+  - DOMAIN-SUFFIX,ttvnw.net       # Twitch 直播流 CDN
+
+  # === 20. 全球技术社区与开源/AI生态基础设施 ===
+  - DOMAIN-SUFFIX,docker.com      # Docker 官网
+  - DOMAIN-SUFFIX,docker.io       # Docker Hub 镜像分发（国内直连经常断流）
+  - DOMAIN-SUFFIX,huggingface.co  # Hugging Face 模型社区
+  - DOMAIN-SUFFIX,hf.co           # Hugging Face 核心短域名与 API
+  - DOMAIN-SUFFIX,medium.com      # Medium 技术博客平台
+  - DOMAIN-SUFFIX,stackoverflow.com # Stack Overflow 问答社区
+  - DOMAIN-SUFFIX,v2ex.com        # V2EX 社区
+  - DOMAIN-SUFFIX,reddit.com      # Reddit 论坛
+  - DOMAIN-SUFFIX,redditmedia.com # Reddit 静态 CDN
+  - DOMAIN-SUFFIX,wikipedia.org   # 维基百科
+  - DOMAIN-SUFFIX,wikimedia.org   # 维基媒体 CDN
