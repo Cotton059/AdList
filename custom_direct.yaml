@@ -1,117 +1,128 @@
 payload:
-  # === 1. 强制不翻墙的特定设备 (源 IP 直连) ===
+
+  # === 0. 设备/内网直连 ===
   - SRC-IP-CIDR,172.17.0.3/32
   - SRC-IP-CIDR,192.168.11.246/32
+  - IP-CIDR,192.168.0.0/16
+  - IP-CIDR,10.0.0.0/8
+  - IP-CIDR,172.16.0.0/12
 
-  # === 2. 小雅 Alist 及个人私有服务直连 ===
+  # === 1. 小雅 / Alist / 私有服务 ===
   - DOMAIN-SUFFIX,api.nn.ci
   - DOMAIN-SUFFIX,api-cf.nn.ci
   - DOMAIN-SUFFIX,api.xhofe.top
 
-  # === 3. 机场订阅防死循环 ===
+  # === 2. 订阅/更新防循环 ===
   - DOMAIN-KEYWORD,sub.sanfen010.xyz
   - DOMAIN-KEYWORD,sub.sanfen017.xyz
-  
-# === 1. 社交与通讯 ===
-  - DOMAIN-SUFFIX,wechat.com      # 微信
-  - DOMAIN-SUFFIX,weixin.qq.com   # 微信接口
-  - DOMAIN-SUFFIX,weixin.com      # 微信
-  - DOMAIN-SUFFIX,qq.com          # 腾讯 QQ 全系
-  - DOMAIN-SUFFIX,tencent.com     # 腾讯公共服务
-  - DOMAIN-SUFFIX,weibo.com       # 新浪微博
-  - DOMAIN-SUFFIX,weibo.cn        # 微博移动端
-  - DOMAIN-SUFFIX,xiaohongshu.com # 小红书
-  - DOMAIN-SUFFIX,xhscdn.com      # 小红书 CDN
-  - DOMAIN-SUFFIX,zhihu.com       # 知乎
-  - DOMAIN-SUFFIX,zhimg.com       # 知乎 CDN
-  - DOMAIN-SUFFIX,douban.com      # 豆瓣
-  - DOMAIN-SUFFIX,doubanio.com    # 豆瓣 CDN
-  - DOMAIN-SUFFIX,tieba.com       # 百度贴吧
 
-  # === 2. 购物与外卖与生活 ===
-  - DOMAIN-SUFFIX,taobao.com      # 淘宝
-  - DOMAIN-SUFFIX,tmall.com       # 天猫
-  - DOMAIN-SUFFIX,alicdn.com      # 阿里系 CDN (极重要，不直连图片加载极慢)
-  - DOMAIN-SUFFIX,alipay.com      # 支付宝
-  - DOMAIN-SUFFIX,alipayobjects.com # 支付宝 CDN
-  - DOMAIN-SUFFIX,jd.com          # 京东
-  - DOMAIN-SUFFIX,360buyimg.com   # 京东 CDN
-  - DOMAIN-SUFFIX,pinduoduo.com   # 拼多多
-  - DOMAIN-SUFFIX,pddpic.com      # 拼多多 CDN
-  - DOMAIN-SUFFIX,meituan.com     # 美团
-  - DOMAIN-SUFFIX,meituan.net     # 美团 CDN
-  - DOMAIN-SUFFIX,dianping.com    # 大众点评
-  - DOMAIN-SUFFIX,ele.me          # 饿了么
-  - DOMAIN-SUFFIX,suning.com      # 苏宁易购
-  - DOMAIN-SUFFIX,vip.com         # 唯品会
-  - DOMAIN-SUFFIX,dewu.com        # 得物
-  - DOMAIN-SUFFIX,poizon.com      # 得物海外版/底层接口
+  # === 3. 腾讯 / 微信（细化，避免过宽 qq.com）===
+  - DOMAIN-SUFFIX,wechat.com
+  - DOMAIN-SUFFIX,weixin.qq.com
+  - DOMAIN-SUFFIX,wx.qq.com
+  - DOMAIN-SUFFIX,im.qq.com
+  - DOMAIN-SUFFIX,mail.qq.com
+  - DOMAIN-SUFFIX,tencent.com
 
-  # === 3. 银行与金融 (防风控必备) ===
-  - DOMAIN-SUFFIX,icbc.com.cn     # 工商银行
-  - DOMAIN-SUFFIX,abchina.com     # 农业银行
-  - DOMAIN-SUFFIX,abchina.com.cn  # 农业银行
-  - DOMAIN-SUFFIX,boc.cn          # 中国银行
-  - DOMAIN-SUFFIX,ccb.com         # 建设银行
-  - DOMAIN-SUFFIX,bankofchina.com # 中国银行
-  - DOMAIN-SUFFIX,bocomm.com      # 交通银行
-  - DOMAIN-SUFFIX,cmbchina.com    # 招商银行
-  - DOMAIN-SUFFIX,spdb.com.cn     # 浦发银行
-  - DOMAIN-SUFFIX,psbc.com        # 邮储银行
-  - DOMAIN-SUFFIX,cebbank.com     # 光大银行
-  - DOMAIN-SUFFIX,cmbc.com.cn     # 民生银行
-  - DOMAIN-SUFFIX,ecitic.com      # 中信银行
-  - DOMAIN-SUFFIX,pingan.com      # 平安银行/保险
-  - DOMAIN-SUFFIX,unionpay.com    # 银联
-  - DOMAIN-SUFFIX,95516.com       # 银联
-  - DOMAIN-SUFFIX,tenpay.com      # 财付通 (微信支付底层)
+  # === 4. 社交平台（国内）===
+  - DOMAIN-SUFFIX,weibo.com
+  - DOMAIN-SUFFIX,weibo.cn
+  - DOMAIN-SUFFIX,xiaohongshu.com
+  - DOMAIN-SUFFIX,xhscdn.com
+  - DOMAIN-SUFFIX,zhihu.com
+  - DOMAIN-SUFFIX,zhimg.com
+  - DOMAIN-SUFFIX,douban.com
+  - DOMAIN-SUFFIX,doubanio.com
+  - DOMAIN-SUFFIX,tieba.baidu.com
 
-  # === 4. 视频、音乐与娱乐 ===
-  - DOMAIN-SUFFIX,bilibili.com    # B站
-  - DOMAIN-SUFFIX,hdslb.com       # B站 CDN
-  - DOMAIN-SUFFIX,biliapi.net     # B站 API
-  - DOMAIN-SUFFIX,iqiyi.com       # 爱奇艺
-  - DOMAIN-SUFFIX,qy.net          # 爱奇艺 CDN
-  - DOMAIN-SUFFIX,youku.com       # 优酷
-  - DOMAIN-SUFFIX,ykimg.com       # 优酷 CDN
-  - DOMAIN-SUFFIX,mgtv.com        # 芒果 TV
-  - DOMAIN-SUFFIX,douyin.com      # 抖音
-  - DOMAIN-SUFFIX,amemv.com       # 抖音接口
-  - DOMAIN-SUFFIX,ixigua.com      # 西瓜视频
-  - DOMAIN-SUFFIX,snssdk.com      # 字节跳动底层接口
-  - DOMAIN-SUFFIX,kuaishou.com    # 快手
-  - DOMAIN-SUFFIX,yximgs.com      # 快手 CDN
-  - DOMAIN-SUFFIX,music.163.com   # 网易云音乐
-  - DOMAIN-SUFFIX,kugou.com       # 酷狗音乐
-  - DOMAIN-SUFFIX,kuwo.cn         # 酷我音乐
-  - DOMAIN-SUFFIX,ximalaya.com    # 喜马拉雅
+  # === 5. 电商 / 生活服务 ===
+  - DOMAIN-SUFFIX,taobao.com
+  - DOMAIN-SUFFIX,tmall.com
+  - DOMAIN-SUFFIX,alicdn.com
+  - DOMAIN-SUFFIX,alipay.com
+  - DOMAIN-SUFFIX,alipayobjects.com
+  - DOMAIN-SUFFIX,jd.com
+  - DOMAIN-SUFFIX,360buyimg.com
+  - DOMAIN-SUFFIX,pinduoduo.com
+  - DOMAIN-SUFFIX,pddpic.com
+  - DOMAIN-SUFFIX,meituan.com
+  - DOMAIN-SUFFIX,meituan.net
+  - DOMAIN-SUFFIX,dianping.com
+  - DOMAIN-SUFFIX,ele.me
+  - DOMAIN-SUFFIX,suning.com
+  - DOMAIN-SUFFIX,vip.com
+  - DOMAIN-SUFFIX,dewu.com
+  - DOMAIN-SUFFIX,poizon.com
 
-  # === 5. 出行与导航 ===
-  - DOMAIN-SUFFIX,amap.com        # 高德地图
-  - DOMAIN-SUFFIX,autonavi.com    # 高德地图底层
-  - DOMAIN-SUFFIX,baidu.com       # 百度 (含地图)
-  - DOMAIN-SUFFIX,bdimg.com       # 百度 CDN
-  - DOMAIN-SUFFIX,12306.cn        # 铁路 12306
-  - DOMAIN-SUFFIX,ctrip.com       # 携程
-  - DOMAIN-SUFFIX,qunar.com       # 去哪儿
-  - DOMAIN-SUFFIX,fliggy.com      # 飞猪
-  - DOMAIN-SUFFIX,didiglobal.com  # 滴滴出行
-  - DOMAIN-SUFFIX,didistatic.com  # 滴滴 CDN
+  # === 6. 银行 / 金融（精简稳定版）===
+  - DOMAIN-SUFFIX,icbc.com.cn
+  - DOMAIN-SUFFIX,abchina.com
+  - DOMAIN-SUFFIX,boc.cn
+  - DOMAIN-SUFFIX,ccb.com
+  - DOMAIN-SUFFIX,cmbchina.com
+  - DOMAIN-SUFFIX,spdb.com.cn
+  - DOMAIN-SUFFIX,psbc.com
+  - DOMAIN-SUFFIX,cebbank.com
+  - DOMAIN-SUFFIX,cmbc.com.cn
+  - DOMAIN-SUFFIX,ecitic.com
+  - DOMAIN-SUFFIX,pingan.com
+  - DOMAIN-SUFFIX,unionpay.com
+  - DOMAIN-SUFFIX,tenpay.com
 
-  # === 6. 云服务与工具 (防止云盘耗尽流量) ===
-  - DOMAIN-SUFFIX,aliyundrive.com # 阿里云盘
-  - DOMAIN-SUFFIX,aliyundrive.net # 阿里云盘
-  - DOMAIN-SUFFIX,quark.cn        # 夸克
-  - DOMAIN-SUFFIX,baidu.com       # 百度网盘 (与百度主站重合)
-  - DOMAIN-SUFFIX,115.com         # 115网盘
-  - DOMAIN-SUFFIX,126.net         # 网易系列邮箱/服务
-  - DOMAIN-SUFFIX,163.com         # 网易
-  - DOMAIN-SUFFIX,aliyun.com      # 阿里云
-  - DOMAIN-SUFFIX,lanzoui.com     # 蓝奏云
-  - DOMAIN-SUFFIX,lanzouw.com     # 蓝奏云
+  # === 7. 国内视频 / 音乐 ===
+  - DOMAIN-SUFFIX,bilibili.com
+  - DOMAIN-SUFFIX,hdslb.com
+  - DOMAIN-SUFFIX,biliapi.net
+  - DOMAIN-SUFFIX,iqiyi.com
+  - DOMAIN-SUFFIX,qy.net
+  - DOMAIN-SUFFIX,youku.com
+  - DOMAIN-SUFFIX,ykimg.com
+  - DOMAIN-SUFFIX,mgtv.com
+  - DOMAIN-SUFFIX,douyin.com
+  - DOMAIN-SUFFIX,amemv.com
+  - DOMAIN-SUFFIX,ixigua.com
+  - DOMAIN-SUFFIX,snssdk.com
+  - DOMAIN-SUFFIX,kuaishou.com
+  - DOMAIN-SUFFIX,yximgs.com
+  - DOMAIN-SUFFIX,music.163.com
+  - DOMAIN-SUFFIX,kugou.com
+  - DOMAIN-SUFFIX,kuwo.cn
+  - DOMAIN-SUFFIX,ximalaya.com
 
-  # === 7. 运营商及政务服务 ===
-  - DOMAIN-SUFFIX,10086.cn        # 中国移动
-  - DOMAIN-SUFFIX,10010.com       # 中国联通
-  - DOMAIN-SUFFIX,189.cn          # 中国电信
-  - DOMAIN-SUFFIX,gov.cn          # 中国政府网及所有政务域名
+  # === 8. 出行 / 地图 / 票务 ===
+  - DOMAIN-SUFFIX,amap.com
+  - DOMAIN-SUFFIX,autonavi.com
+  - DOMAIN-SUFFIX,baidu.com
+  - DOMAIN-SUFFIX,bdstatic.com
+  - DOMAIN-SUFFIX,bdimg.com
+  - DOMAIN-SUFFIX,12306.cn
+  - DOMAIN-SUFFIX,ctrip.com
+  - DOMAIN-SUFFIX,qunar.com
+  - DOMAIN-SUFFIX,fliggy.com
+  - DOMAIN-SUFFIX,didiglobal.com
+  - DOMAIN-SUFFIX,didistatic.com
+
+  # === 9. 云盘 / 存储（国内直连）===
+  - DOMAIN-SUFFIX,aliyundrive.com
+  - DOMAIN-SUFFIX,aliyundrive.net
+  - DOMAIN-SUFFIX,quark.cn
+  - DOMAIN-SUFFIX,115.com
+  - DOMAIN-SUFFIX,126.net
+  - DOMAIN-SUFFIX,163.com
+  - DOMAIN-SUFFIX,aliyun.com
+  - DOMAIN-SUFFIX,lanzoui.com
+  - DOMAIN-SUFFIX,lanzouw.com
+
+  # === 10. 运营商 / 政务 ===
+  - DOMAIN-SUFFIX,10086.cn
+  - DOMAIN-SUFFIX,10010.com
+  - DOMAIN-SUFFIX,189.cn
+  - DOMAIN-SUFFIX,gov.cn
+
+  # === 11. DNS / 基础服务（防异常解析）===
+  - DOMAIN-SUFFIX,alicdn.com
+  - DOMAIN-SUFFIX,taobao.com
+  - DOMAIN-SUFFIX,tmall.com
+  - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-SUFFIX,tencent.com
+  - DOMAIN-SUFFIX,baidu.com
