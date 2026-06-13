@@ -126,3 +126,7 @@ payload:
   - DOMAIN-SUFFIX,qq.com
   - DOMAIN-SUFFIX,tencent.com
   - DOMAIN-SUFFIX,baidu.com
+
+    # === 12. CDN / 加速（避免误判延迟）===
+  - DOMAIN-SUFFIX,bdstatic.com
+  - DOMAIN-SUFFIX,alicdn.com
