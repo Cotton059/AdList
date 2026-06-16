@@ -2,3 +2,11 @@ payload:
   # === 核心私有规则：DMM 与查 IP 服务 ===
   - DOMAIN-KEYWORD,dmm
   - DOMAIN-SUFFIX,ip.sb
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,makersuite.google.com
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
+  - DOMAIN-SUFFIX,ai.google.dev
+  - DOMAIN-SUFFIX,vertexai.googleapis.com
+  - DOMAIN-KEYWORD,gemini
+  - DOMAIN-KEYWORD,bard
