@@ -1,0 +1,460 @@
+# ==========================================
+# 1. 微软 / Windows 更新与服务拦截
+# ==========================================
+DOMAIN-SUFFIX,au.download.windowsupdate.com,REJECT
+DOMAIN-SUFFIX,slscr.update.microsoft.com,REJECT
+DOMAIN-SUFFIX,update.microsoft.com,REJECT
+DOMAIN-SUFFIX,cp601.prod.do.dsp.mp.microsoft.com,REJECT
+DOMAIN-SUFFIX,1a.au.download.windowsupdate.com,REJECT
+DOMAIN-SUFFIX,download.windowsupdate.com,REJECT
+DOMAIN-SUFFIX,windowsupdate.microsoft.com,REJECT
+DOMAIN-SUFFIX,fe2cr.update.microsoft.com,REJECT
+DOMAIN-SUFFIX,ctldl.windowsupdate.com,REJECT
+DOMAIN-SUFFIX,zfc.windowsupdate1.com,REJECT
+DOMAIN-SUFFIX,client.wns.windows.com,REJECT
+DOMAIN-SUFFIX,windowsupdate.com,REJECT
+DOMAIN-SUFFIX,v10.events.data.microsoft.com,REJECT
+DOMAIN-SUFFIX,microsoft.com,REJECT
+DOMAIN-SUFFIX,officeclient.microsoft.com,REJECT
+DOMAIN-SUFFIX,ecs.office.com,REJECT
+DOMAIN-SUFFIX,substrate.office.com,REJECT
+
+# ==========================================
+# 2. Adobe 软件正版验证服务器拦截
+# ==========================================
+DOMAIN-SUFFIX,ic.adobe.io,REJECT
+DOMAIN-SUFFIX,cc-api-data.adobe.io,REJECT
+DOMAIN-SUFFIX,prod.adobegenuine.com,REJECT
+DOMAIN-SUFFIX,adobe.com,REJECT
+DOMAIN-SUFFIX,adobe.io,REJECT
+DOMAIN-SUFFIX,adobedtm.com,REJECT
+DOMAIN-SUFFIX,adobecc.com,REJECT
+DOMAIN-SUFFIX,0mo5a70cqa.adobe.io,REJECT
+DOMAIN-SUFFIX,1b9khekel6.adobe.io,REJECT
+DOMAIN-SUFFIX,1hzopx6nz7.adobe.io,REJECT
+DOMAIN-SUFFIX,23ynjitwt5.adobe.io,REJECT
+DOMAIN-SUFFIX,2ftem87osk.adobe.io,REJECT
+DOMAIN-SUFFIX,3ca52znvmj.adobe.io,REJECT
+DOMAIN-SUFFIX,3d3wqt96ht.adobe.io,REJECT
+DOMAIN-SUFFIX,4vzokhpsbs.adobe.io,REJECT
+DOMAIN-SUFFIX,5zgzzv92gn.adobe.io,REJECT
+DOMAIN-SUFFIX,69tu0xswvq.adobe.io,REJECT
+DOMAIN-SUFFIX,7g2gzgk9g1.adobe.io,REJECT
+DOMAIN-SUFFIX,7m31guub0q.adobe.io,REJECT
+DOMAIN-SUFFIX,7sj9n87sls.adobe.io,REJECT
+DOMAIN-SUFFIX,8ncdzpmmrg.adobe.io,REJECT
+DOMAIN-SUFFIX,9ngulmtgqi.adobe.io,REJECT
+DOMAIN-SUFFIX,aoorovjtha.adobe.io,REJECT
+DOMAIN-SUFFIX,b5kbg2ggog.adobe.io,REJECT
+DOMAIN-SUFFIX,cd536oo20y.adobe.io,REJECT
+DOMAIN-SUFFIX,dxyeyf6ecy.adobe.io,REJECT
+DOMAIN-SUFFIX,dyzt55url8.adobe.io,REJECT
+DOMAIN-SUFFIX,fqaq3pq1o9.adobe.io,REJECT
+DOMAIN-SUFFIX,guzg78logz.adobe.io,REJECT
+DOMAIN-SUFFIX,gw8gfjbs05.adobe.io,REJECT
+DOMAIN-SUFFIX,i7pq6fgbsl.adobe.io,REJECT
+DOMAIN-SUFFIX,ij0gdyrfka.adobe.io,REJECT
+DOMAIN-SUFFIX,jc95y2v12r.adobe.io,REJECT
+DOMAIN-SUFFIX,lre1kgz2u4.adobe.io,REJECT
+DOMAIN-SUFFIX,m59b4msyph.adobe.io,REJECT
+DOMAIN-SUFFIX,p0bjuoe16a.adobe.io,REJECT
+DOMAIN-SUFFIX,p7uxzbht8h.adobe.io,REJECT
+DOMAIN-SUFFIX,ph0f2h2csf.adobe.io,REJECT
+DOMAIN-SUFFIX,pojvrj7ho5.adobe.io,REJECT
+DOMAIN-SUFFIX,r3zj0yju1q.adobe.io,REJECT
+DOMAIN-SUFFIX,r5hacgq5w6.adobe.io,REJECT
+DOMAIN-SUFFIX,vajcbj9qgq.adobe.io,REJECT
+DOMAIN-SUFFIX,vcorzsld2a.adobe.io,REJECT
+DOMAIN-SUFFIX,cv218qmzox6.prod.cloud.adobe.io,REJECT
+DOMAIN-SUFFIX,cv24b15c1z0.prod.cloud.adobe.io,REJECT
+DOMAIN-SUFFIX,cv24v41zibm.prod.cloud.adobe.io,REJECT
+DOMAIN-SUFFIX,cv256ds6c99.prod.cloud.adobe.io,REJECT
+DOMAIN-SUFFIX,cv2b0yc07ls.prod.cloud.adobe.io,REJECT
+DOMAIN-SUFFIX,cv2bqhsp36w.prod.cloud.adobe.io,REJECT
+DOMAIN-SUFFIX,cv2fcqvzl1r.prod.cloud.adobe.io,REJECT
+DOMAIN-SUFFIX,cv2l4573ukh.prod.cloud.adobe.io,REJECT
+DOMAIN-SUFFIX,cv2nn9r0j2r.prod.cloud.adobe.io,REJECT
+DOMAIN-SUFFIX,cv2ska86hnt.prod.cloud.adobe.io,REJECT
+DOMAIN-SUFFIX,cv2ys4tjt9x.prod.cloud.adobe.io,REJECT
+DOMAIN-SUFFIX,cv2yt8sqmh0.prod.cloud.adobe.io,REJECT
+DOMAIN-SUFFIX,cv2zp87w2eo.prod.cloud.adobe.io,REJECT
+
+# ==========================================
+# 3. 小米 / MIUI 系统与广告拦截
+# ==========================================
+# [拦截规则]
+DOMAIN-SUFFIX,update.intl.miui.com,REJECT
+DOMAIN-SUFFIX,update.miui.com,REJECT
+DOMAIN-SUFFIX,port.sec.miui.com,REJECT
+DOMAIN-SUFFIX,data.mistat.xiaomi.com,REJECT
+DOMAIN-SUFFIX,xiaomi2.p2psy2.io.mi.com,REJECT
+DOMAIN-SUFFIX,ads.mi.com,REJECT
+DOMAIN-SUFFIX,file.market.xiaomi.com,REJECT
+DOMAIN-SUFFIX,cdn.xiaomi.com,REJECT
+DOMAIN-SUFFIX,ads2.mi.com,REJECT
+DOMAIN-SUFFIX,mifile.com,REJECT
+DOMAIN-SUFFIX,xiaomiads.com,REJECT
+DOMAIN-SUFFIX,global.cdn.mi.com,REJECT
+DOMAIN-SUFFIX,tv.xiaomi.com,REJECT
+DOMAIN-SUFFIX,t.adx.mi.com,REJECT
+DOMAIN-SUFFIX,ads.xiaomi.com,REJECT
+DOMAIN-SUFFIX,miuiapi.xiaomi.com,REJECT
+DOMAIN-SUFFIX,xiaomi.net,REJECT
+DOMAIN-SUFFIX,update.xiaomi.com,REJECT
+DOMAIN-SUFFIX,data.xiaomi.com,REJECT
+DOMAIN-SUFFIX,sso.xiaomi.com,REJECT
+DOMAIN-SUFFIX,mimarket.xiaomi.com,REJECT
+DOMAIN-SUFFIX,ad.mi.com,REJECT
+DOMAIN-SUFFIX,ad.xiaomi.com,REJECT
+DOMAIN-SUFFIX,api.ad.xiaomi.com,REJECT
+DOMAIN-SUFFIX,adv.sec.miui.com,REJECT
+DOMAIN-SUFFIX,tracking.miui.com,REJECT
+DOMAIN-SUFFIX,data.sec.miui.com,REJECT
+DOMAIN-SUFFIX,o2o.api.xiaomi.com,REJECT
+DOMAIN-SUFFIX,log.ad.xiaomi.com,REJECT
+DOMAIN-SUFFIX,test.ad.xiaomi.com,REJECT
+DOMAIN-SUFFIX,boss.ad.xiaomi.com,REJECT
+DOMAIN-SUFFIX,api.d.xiaomi.com,REJECT
+DOMAIN-SUFFIX,geofence.sys.miui.com,REJECT
+
+# [放行规则 - 国内直连]
+DOMAIN-SUFFIX,api.io.mi.com,DIRECT
+DOMAIN-SUFFIX,api.account.xiaomi.com,DIRECT
+DOMAIN-SUFFIX,api.vip.miui.com,DIRECT
+DOMAIN-SUFFIX,api.tw06.xlmc.sec.miui.com,DIRECT
+
+# ==========================================
+# 4. 谷歌核心与周边服务 (全部海外/被墙 -> 走代理)
+# ==========================================
+DOMAIN-SUFFIX,clients4.google.com,PROXY
+DOMAIN-SUFFIX,clientservices.googleapis.com,PROXY
+DOMAIN-SUFFIX,clients2.google.com,PROXY
+DOMAIN-SUFFIX,www.googletagmanager.com,PROXY
+DOMAIN-SUFFIX,googletagmanager.com,PROXY
+DOMAIN-SUFFIX,www.google-analytics.com,PROXY
+DOMAIN-SUFFIX,google-analytics.com,PROXY
+DOMAIN-SUFFIX,ssl.google-analytics.com,PROXY
+DOMAIN-SUFFIX,google.com,PROXY
+DOMAIN-SUFFIX,google.cn,PROXY
+DOMAIN-SUFFIX,google.com.hk,PROXY
+DOMAIN-SUFFIX,google.net,PROXY
+DOMAIN-SUFFIX,google.org,PROXY
+DOMAIN-SUFFIX,google.me,PROXY
+DOMAIN-SUFFIX,g.co,PROXY
+DOMAIN-SUFFIX,goo.gl,PROXY
+DOMAIN-SUFFIX,withgoogle.com,PROXY
+DOMAIN-SUFFIX,googleapis.com,PROXY
+DOMAIN-SUFFIX,googleusercontent.com,PROXY
+DOMAIN-SUFFIX,1e100.net,PROXY
+DOMAIN-SUFFIX,gvt1.com,PROXY
+DOMAIN-SUFFIX,gvt2.com,PROXY
+DOMAIN-SUFFIX,gvt3.com,PROXY
+DOMAIN-SUFFIX,googlezip.net,PROXY
+DOMAIN-SUFFIX,recaptcha.net,PROXY
+DOMAIN-SUFFIX,firebaseio.com,PROXY
+DOMAIN-SUFFIX,firebaseapp.com,PROXY
+DOMAIN-SUFFIX,web.app,PROXY
+DOMAIN-SUFFIX,googlesource.com,PROXY
+DOMAIN-SUFFIX,chromium.org,PROXY
+DOMAIN-SUFFIX,gstatic.com,PROXY
+DOMAIN-SUFFIX,appspot.com,PROXY
+DOMAIN-SUFFIX,gmail.com,PROXY
+DOMAIN-SUFFIX,android.com,PROXY
+DOMAIN-SUFFIX,pki.goog,PROXY
+DOMAIN-SUFFIX,youtube.com,PROXY
+DOMAIN-SUFFIX,googlevideo.com,PROXY
+DOMAIN-SUFFIX,ytimg.com,PROXY
+DOMAIN-SUFFIX,ggpht.com,PROXY
+DOMAIN-SUFFIX,s.youtube.com,PROXY
+DOMAIN-SUFFIX,blogger.com,PROXY
+DOMAIN-SUFFIX,blogspot.com,PROXY
+DOMAIN-SUFFIX,googleweblight.com,PROXY
+DOMAIN-SUFFIX,doubleclick.net,PROXY
+DOMAIN-SUFFIX,googlesyndication.com,PROXY
+DOMAIN-SUFFIX,googleadservices.com,PROXY
+DOMAIN-SUFFIX,googletagservices.com,PROXY
+DOMAIN-SUFFIX,googleoptimize.com,PROXY
+DOMAIN-SUFFIX,googleadmx.com,PROXY
+DOMAIN-SUFFIX,admob.com,PROXY
+DOMAIN-SUFFIX,adsense.com,PROXY
+DOMAIN-SUFFIX,googleads.g.doubleclick.net,PROXY
+DOMAIN-SUFFIX,pagead2.googlesyndication.com,PROXY
+
+# ==========================================
+# 5. OpenAI / ChatGPT (全部海外/被墙 -> 走代理)
+# ==========================================
+DOMAIN-SUFFIX,chatgpt.com,PROXY
+DOMAIN-SUFFIX,openai.com,PROXY
+DOMAIN-SUFFIX,auth0.openai.com,PROXY
+DOMAIN-SUFFIX,chat.openai.com,PROXY
+DOMAIN-SUFFIX,tcr9i.chat.openai.com,PROXY
+DOMAIN-SUFFIX,oaiusercontent.com,PROXY
+DOMAIN-SUFFIX,oaistatic.com,PROXY
+DOMAIN-SUFFIX,ios.chat.openai.com,PROXY
+DOMAIN-SUFFIX,android.chat.openai.com,PROXY
+DOMAIN-SUFFIX,desktop.chat.openai.com,PROXY
+DOMAIN-SUFFIX,statsig.com,PROXY
+DOMAIN-SUFFIX,statsigapi.net,PROXY
+DOMAIN-SUFFIX,events.statsigapi.net,PROXY
+DOMAIN-SUFFIX,featuregates.org,PROXY
+DOMAIN-SUFFIX,intercomcdn.com,PROXY
+DOMAIN-SUFFIX,js.intercomcdn.com,PROXY
+DOMAIN-SUFFIX,intercom.io,PROXY
+DOMAIN-SUFFIX,js.stripe.com,PROXY
+DOMAIN-SUFFIX,challenges.cloudflare.com,PROXY
+DOMAIN-SUFFIX,rum.browser-intake-datadoghq.com,PROXY
+DOMAIN-SUFFIX,o33249.ingest.sentry.io,PROXY
+DOMAIN-SUFFIX,prodregistryv2.org,PROXY
+DOMAIN-SUFFIX,featureassets.org,PROXY
+
+# ==========================================
+# 6. 成人网站 (屏蔽广告与放行服务)
+# ==========================================
+# [广告/追踪屏蔽]
+DOMAIN-SUFFIX,ads.pornhub.com,REJECT
+DOMAIN-SUFFIX,cdn.pornhub.com,REJECT
+DOMAIN-SUFFIX,tracking.pornhub.com,REJECT
+
+# [网站放行 - 海外被墙 -> 走代理]
+DOMAIN-SUFFIX,theporndude.com,PROXY
+DOMAIN-SUFFIX,animeidhentai.com,PROXY
+DOMAIN-SUFFIX,www.xnxx.com,PROXY
+DOMAIN-SUFFIX,www.yxcjav.pw,PROXY
+DOMAIN-SUFFIX,spankbang.com,PROXY
+DOMAIN-SUFFIX,www.redtube.com,PROXY
+DOMAIN-SUFFIX,bongacams.com,PROXY
+DOMAIN-SUFFIX,chaturbate.com,PROXY
+DOMAIN-SUFFIX,www.youporn.com,PROXY
+DOMAIN-SUFFIX,www.livejasmin.com,PROXY
+DOMAIN-SUFFIX,jp.xhamster.com,PROXY
+DOMAIN-SUFFIX,cn.pornhub.com,PROXY
+DOMAIN-SUFFIX,pornhub.com,PROXY
+DOMAIN-SUFFIX,www.pornhub.com,PROXY
+DOMAIN-SUFFIX,www.xvideos.com,PROXY
+DOMAIN-SUFFIX,xvideos.com,PROXY
+DOMAIN-SUFFIX,evtubescms.phncdn.com,PROXY
+DOMAIN-SUFFIX,ip.affiliate.dmm.com,PROXY
+DOMAIN-SUFFIX,refer.ccbill.com,PROXY
+
+# ==========================================
+# 7. 腾讯系 / 微信 / QQ (屏蔽广告与放行服务)
+# ==========================================
+# [广告屏蔽]
+DOMAIN-SUFFIX,ad.api.3g.qq.com,REJECT
+DOMAIN-SUFFIX,mi.gdt.qq.com,REJECT
+
+# [服务放行 - 国内 -> 直连]
+DOMAIN-SUFFIX,mp.weixin.qq.com,DIRECT
+DOMAIN-SUFFIX,shminorshort.weixin.qq.com,DIRECT
+DOMAIN-SUFFIX,minorshort.weixin.qq.com,DIRECT
+DOMAIN-SUFFIX,res.wx.qq.com,DIRECT
+DOMAIN-SUFFIX,wxsnsdythumb.wxs.qq.com,DIRECT
+DOMAIN-SUFFIX,mtteve.beacon.qq.com,DIRECT
+DOMAIN-SUFFIX,mttstr.beacon.qq.com,DIRECT
+DOMAIN-SUFFIX,down.qq.com,DIRECT
+DOMAIN-SUFFIX,ip.qq.com,DIRECT
+DOMAIN-SUFFIX,a.app.qq.com,DIRECT
+
+# ==========================================
+# 8. 阿里系 / 淘宝 / 阿里云 (国内 -> 全部直连)
+# ==========================================
+DOMAIN-SUFFIX,arms-retcode.aliyuncs.com,DIRECT
+DOMAIN-SUFFIX,ynuf.aliapp.org,DIRECT
+DOMAIN-SUFFIX,ynuf.alipay.com,DIRECT
+DOMAIN-SUFFIX,cdn.ynuf.aliapp.org,DIRECT
+DOMAIN-SUFFIX,beacon-api.aliyuncs.com,DIRECT
+DOMAIN-SUFFIX,ce-widget.cn-shenzhen.log.aliyuncs.com,DIRECT
+DOMAIN-SUFFIX,guangguang.cloudvideocdn.taobao.com,DIRECT
+DOMAIN-SUFFIX,appdownload.alicdn.com,DIRECT
+DOMAIN-SUFFIX,mpush-api.aliyun.com,DIRECT
+DOMAIN-SUFFIX,adash-emas.cn-hangzhou.aliyuncs.com,DIRECT
+
+# ==========================================
+# 9. 苹果服务 (Apple)
+# ==========================================
+# [拦截]
+DOMAIN-SUFFIX,mesu.apple.com,REJECT
+DOMAIN-SUFFIX,appldnld.apple.com,REJECT
+
+# [放行 - CDN 在国内 -> 直连]
+DOMAIN-SUFFIX,ca.iadsdk.apple.com,DIRECT
+DOMAIN-SUFFIX,apple.com,DIRECT
+
+# ==========================================
+# 10. 广告联盟、追踪器与模拟器广告屏蔽
+# ==========================================
+# [TikTok 广告]
+DOMAIN-SUFFIX,ads.tiktok.com,REJECT
+DOMAIN-SUFFIX,tiktok-ads.com,REJECT
+DOMAIN-SUFFIX,tiktok.com/ads,REJECT
+DOMAIN-SUFFIX,ads-eu.tiktok.com,REJECT
+DOMAIN-SUFFIX,tiktokv.com,REJECT
+DOMAIN-SUFFIX,ttads.net,REJECT
+DOMAIN-SUFFIX,tiktok-ads-sdk.com,REJECT
+
+# [Nox / Bluestacks 模拟器广告]
+DOMAIN-SUFFIX,api-new.bignox.com,REJECT
+DOMAIN-SUFFIX,appcenter-api.bignox.com,REJECT
+DOMAIN-SUFFIX,res.noxmobi.com,REJECT
+DOMAIN-SUFFIX,launcher-api.bignox.com,REJECT
+DOMAIN-SUFFIX,ssp-3-9f58-hk.trnox.com,REJECT
+DOMAIN-SUFFIX,api.bignox.com,REJECT
+DOMAIN-SUFFIX,bianxian-log.bignox.com,REJECT
+DOMAIN-SUFFIX,bluekai.com,REJECT
+DOMAIN-SUFFIX,bluestacks.com,REJECT
+DOMAIN-SUFFIX,bignox.com,REJECT
+DOMAIN-SUFFIX,noxmobi.com,REJECT
+DOMAIN-SUFFIX,trnox.com,REJECT
+
+# [通用广告网络]
+DOMAIN-SUFFIX,ad.doubleclick.net,REJECT
+DOMAIN-SUFFIX,partner.googleadservices.com,REJECT
+DOMAIN-SUFFIX,adroll.com,REJECT
+DOMAIN-SUFFIX,googlesyndication.com,REJECT
+DOMAIN-SUFFIX,adservice.google.com,REJECT
+DOMAIN-SUFFIX,adclick.g.doubleclick.net,REJECT
+DOMAIN-SUFFIX,ludashi.com,REJECT
+
+# ==========================================
+# 11. 代理分流专属拦截标签 ($ctag=AAAA)
+# ⚠️ 注意: 原始列表为 `||` 拦截语法，已严格遵循指令转换为 REJECT
+# 如果你的本意是让这些域名走代理，应修改为 PROXY
+# ==========================================
+DOMAIN-SUFFIX,google.com,REJECT
+DOMAIN-SUFFIX,youtube.com,REJECT
+DOMAIN-SUFFIX,github.com,REJECT
+DOMAIN-SUFFIX,twitter.com,REJECT
+DOMAIN-SUFFIX,telegram.org,REJECT
+DOMAIN-SUFFIX,netflix.com,REJECT
+DOMAIN-SUFFIX,openai.com,REJECT
+DOMAIN-SUFFIX,chatgpt.com,REJECT
+DOMAIN-SUFFIX,oaiusercontent.com,REJECT
+
+# ==========================================
+# 12. 指定设备专属拦截与放行
+# ⚠️ 注意: 代理工具的普通域名规则不支持直接指定客户端 IP 或 MAC ($client)
+# 此处提取了域名部分并根据归属地进行分流转换
+# ==========================================
+# [MI-TV 专属拦截 -> REJECT]
+DOMAIN-SUFFIX,xiaomi.com,REJECT
+DOMAIN-SUFFIX,pool.ntp.org,REJECT
+DOMAIN-SUFFIX,gitv.tv,REJECT
+DOMAIN-SUFFIX,mi.com,REJECT
+DOMAIN-SUFFIX,ksyun.com,REJECT
+DOMAIN-SUFFIX,vcloud.ks-live.com,REJECT
+DOMAIN-SUFFIX,loc.map.baidu.com,REJECT
+DOMAIN-SUFFIX,ottcn.com,REJECT
+DOMAIN-SUFFIX,volces.com,REJECT
+DOMAIN-SUFFIX,lebo.cn,REJECT
+DOMAIN-SUFFIX,lebo.com,REJECT
+DOMAIN-SUFFIX,kugou.com,REJECT
+
+# [K40g 专属放行 -> 国内直连]
+DOMAIN-SUFFIX,images1-mall.onethingpcs.com,DIRECT
+DOMAIN-SUFFIX,umengacs.m.taobao.com,DIRECT
+DOMAIN-SUFFIX,resolve.umeng.com,DIRECT
+
+# [I7-4790K / N5105 / 特定 IP 专属放行 -> 直连/代理]
+DOMAIN-SUFFIX,pan.baidu.com,DIRECT
+DOMAIN-SUFFIX,www.bing.com,PROXY
+DOMAIN-SUFFIX,baidu.com,DIRECT
+DOMAIN-SUFFIX,www.meta.ai,PROXY
+DOMAIN-SUFFIX,meta.graph.meta.com,PROXY
+
+# ==========================================
+# 13. 系统与安全更新拦截
+# ==========================================
+DOMAIN-SUFFIX,update.huorong.cn,REJECT
+DOMAIN-SUFFIX,down-tencent.huorong.cn,REJECT
+DOMAIN-SUFFIX,internetdownloadmanager.com,REJECT
+
+# ==========================================
+# 14. 杂项全局拦截
+# ==========================================
+DOMAIN-SUFFIX,gocart-web-prod-ue1-alb-1461435473.us-east-1.elb.amazonaws.com,REJECT
+DOMAIN-SUFFIX,users.beresnev.games,REJECT
+DOMAIN-SUFFIX,mssdk-sg-bu.byteoversea.com,REJECT
+DOMAIN-SUFFIX,upload-cdn.orayimg.com,REJECT
+DOMAIN-SUFFIX,cdn.orayimg.com,REJECT
+DOMAIN-SUFFIX,baidu.com,REJECT
+DOMAIN-SUFFIX,www.bing.com,REJECT
+DOMAIN-SUFFIX,cn.bing.com,REJECT
+
+# ==========================================
+# 15. 杂项全局放行
+# ==========================================
+# [国内/本地 -> 直连]
+DOMAIN-SUFFIX,baidu.com,DIRECT
+DOMAIN-SUFFIX,img30.360buyimg.com,DIRECT
+DOMAIN-SUFFIX,static.360buyimg.com,DIRECT
+DOMAIN-SUFFIX,ulogs.umeng.com,DIRECT
+DOMAIN-SUFFIX,peapay.top,DIRECT
+DOMAIN-SUFFIX,api.xhofe.top,DIRECT
+DOMAIN-SUFFIX,ds.163.com,DIRECT
+DOMAIN-SUFFIX,cbg.163.com,DIRECT
+DOMAIN-SUFFIX,www.btdx8.com,DIRECT
+DOMAIN-SUFFIX,163.com,DIRECT
+DOMAIN-SUFFIX,ulogs.umengcloud.com,DIRECT
+DOMAIN-SUFFIX,aaid.umeng.com,DIRECT
+DOMAIN-SUFFIX,px.ucweb.com,DIRECT
+DOMAIN-SUFFIX,dash.996cloud.top,DIRECT
+DOMAIN-SUFFIX,xianyuwangluo.top,DIRECT
+DOMAIN-SUFFIX,yfjc.cfd,DIRECT
+DOMAIN-SUFFIX,ktmcloud.top,DIRECT
+DOMAIN-SUFFIX,www.a123pay.top,DIRECT
+DOMAIN-SUFFIX,sanfencdn9.com,DIRECT
+DOMAIN-SUFFIX,sub.sanfen017.xyz,DIRECT
+DOMAIN-SUFFIX,jh.xianyuwangzhi.top,DIRECT
+DOMAIN-SUFFIX,fs.xianyuwangzhi.top,DIRECT
+DOMAIN-SUFFIX,pan.quark.cn,DIRECT
+DOMAIN-SUFFIX,fast.uc.cn,DIRECT
+DOMAIN-SUFFIX,pan.3ppp.top,DIRECT
+DOMAIN-SUFFIX,localhost,DIRECT
+DOMAIN-SUFFIX,wxy-ul.onethingpcs.com,DIRECT
+DOMAIN-SUFFIX,isvip0xyajs-data.xycdn.com,DIRECT
+DOMAIN-SUFFIX,flash.xiaohongshu.com,DIRECT
+DOMAIN-SUFFIX,referee.xiaohongshu.com,DIRECT
+DOMAIN-SUFFIX,auth.api.gitv.tv,DIRECT
+DOMAIN-SUFFIX,creditpay.meituan.com,DIRECT
+DOMAIN-SUFFIX,paybiz2kfk.dreport.meituan.net,DIRECT
+DOMAIN-SUFFIX,xunlei.com,DIRECT
+DOMAIN-SUFFIX,bilibili.com,DIRECT
+DOMAIN-SUFFIX,broadcast.chat.bilibili.com,DIRECT
+DOMAIN-SUFFIX,game.eve.mdt.qq.com,DIRECT
+DOMAIN-SUFFIX,game.str.mdt.qq.com,DIRECT
+DOMAIN-SUFFIX,dns.weixin.qq.com.cn,DIRECT
+DOMAIN-SUFFIX,qappcenterv6.3g.qq.com,DIRECT
+DOMAIN-SUFFIX,up-hl.3g.qq.com,DIRECT
+DOMAIN-SUFFIX,static-xl.a.88cdn.com,DIRECT
+DOMAIN-SUFFIX,backstage-img-ssl.a.88cdn.com,DIRECT
+
+# [海外/被墙 -> 走代理]
+DOMAIN-SUFFIX,activity.windows.com,PROXY
+DOMAIN-SUFFIX,events.gfe.nvidia.com,PROXY
+DOMAIN-SUFFIX,xiaoyahelper.zengge99.eu.org,PROXY
+DOMAIN-SUFFIX,xiaoyahelper.zngle.cf,PROXY
+DOMAIN-SUFFIX,ww16.nfstars.net,PROXY
+DOMAIN-SUFFIX,notepad.pw,PROXY
+DOMAIN-SUFFIX,xiaoyapush.zngle.cf,PROXY
+DOMAIN-SUFFIX,brko.admobe.com,PROXY
+DOMAIN-SUFFIX,revanced.net,PROXY
+DOMAIN-SUFFIX,spaceship.sjv.io,PROXY
+DOMAIN-SUFFIX,vanced.to,PROXY
+DOMAIN-SUFFIX,api.honeygain.com,PROXY
+DOMAIN-SUFFIX,clickserve.dartsearch.net,PROXY
+DOMAIN-SUFFIX,click.discord.com,PROXY
+DOMAIN-SUFFIX,paypal.com,PROXY
+DOMAIN-SUFFIX,app.adjust.net.in,PROXY
+DOMAIN-SUFFIX,analytics.adjust.net.in,PROXY
+DOMAIN-SUFFIX,analytics.adjust.com,PROXY
+DOMAIN-SUFFIX,dash.cloudflare.com,PROXY
+DOMAIN-SUFFIX,cloudflare.com,PROXY
+DOMAIN-SUFFIX,cloudflareinsights.com,PROXY
+DOMAIN-SUFFIX,challenges.cloudflare.com,PROXY
+DOMAIN-SUFFIX,turnstile.cloudflare.com,PROXY
+DOMAIN-SUFFIX,accounts.google.com,PROXY
+DOMAIN-SUFFIX,apis.google.com,PROXY
+DOMAIN-SUFFIX,gstatic.com,PROXY
+DOMAIN-SUFFIX,github.com,PROXY
+DOMAIN-SUFFIX,api.github.com,PROXY
+DOMAIN-SUFFIX,githubusercontent.com,PROXY
