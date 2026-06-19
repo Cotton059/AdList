@@ -1,0 +1,180 @@
+# === 0. 自定义海外域名 ===
+DOMAIN-SUFFIX,duckyci.com
+
+  # === 1. Google 静态资源与 CDN ===
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,googlezip.net
+DOMAIN-SUFFIX,gmodules.com
+
+  # === 2. Google / AI 平台 ===
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,ai.google.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,appspot.com
+DOMAIN-SUFFIX,firebaseio.com
+DOMAIN-SUFFIX,1e100.net
+
+  # === 3. Google 主服务 ===
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,google.com.hk
+DOMAIN-SUFFIX,google.cn
+DOMAIN-SUFFIX,gmail.com
+DOMAIN-SUFFIX,googleworkspace.com
+DOMAIN-SUFFIX,googledrive.com
+
+  # === 4. YouTube ===
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,googleusercontent.com
+
+  # === 5. Google 广告 / 验证 / 生态 ===
+DOMAIN-SUFFIX,recaptcha.net
+DOMAIN-SUFFIX,pki.goog
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,doubleclick.net
+
+  # === 6. OpenAI / ChatGPT ===
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,intercom.io
+
+  # === 7. Anthropic / Claude ===
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,anthropic.com
+
+  # === 8. GitHub 生态 ===
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,git-scm.com
+DOMAIN-SUFFIX,gitlab.com
+
+  # === 9. Microsoft / Bing / Copilot ===
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bing.net
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,login.live.com
+DOMAIN-SUFFIX,msauth.net
+DOMAIN-SUFFIX,onedrive.com
+
+  # === 10. Telegram ===
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegra.ph
+
+  # === 11. X / Twitter ===
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,t.co
+
+  # === 12. Meta ===
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+
+  # === 13. 流媒体 ===
+DOMAIN-SUFFIX,netflix.com
+DOMAIN-SUFFIX,netflix.net
+DOMAIN-SUFFIX,nflxvideo.net
+DOMAIN-SUFFIX,disneyplus.com
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,twitch.tv
+DOMAIN-SUFFIX,ttvnw.net
+DOMAIN-SUFFIX,fast.com
+
+  # === 14. 开源 / 社区 ===
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+DOMAIN-SUFFIX,medium.com
+DOMAIN-SUFFIX,stackoverflow.com
+DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,reddit.com
+DOMAIN-SUFFIX,redditmedia.com
+DOMAIN-SUFFIX,wikipedia.org
+DOMAIN-SUFFIX,wikimedia.org
+
+  # === 15. DNS / 安全 / 基础设施（关键补充）===
+DOMAIN-SUFFIX,dns.google
+DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,one.one.one.one
+DOMAIN-SUFFIX,8.8.8.8
+DOMAIN-SUFFIX,1.1.1.1
+DOMAIN-SUFFIX,googleusercontent.com
+
+  # === 16. 精简 KEYWORD（只保留必要）===
+DOMAIN-KEYWORD,youtube
+DOMAIN-KEYWORD,telegram
+DOMAIN-KEYWORD,chatgpt
+
+    # === 17. Google Video / GVT 探针补全（你日志刚需）===
+DOMAIN-SUFFIX,gvt1.com
+DOMAIN-SUFFIX,gvt2.com
+DOMAIN-SUFFIX,gvt3.com
+DOMAIN-SUFFIX,gvt4.com
+DOMAIN-SUFFIX,gvt5.com
+DOMAIN-SUFFIX,gvt6.com
+DOMAIN-SUFFIX,gvt7.com
+DOMAIN-SUFFIX,gvt9.com
+
+  # === 18. Google API / 登录 / OAuth 深层补漏 ===
+DOMAIN-SUFFIX,accounts.google.com
+DOMAIN-SUFFIX,oauth.google.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,clientservices.googleapis.com
+DOMAIN-SUFFIX,googleapis.cn
+
+  # === 19. YouTube 关键分发节点补充（防卡顿 / 404 / 解析失败）===
+DOMAIN-SUFFIX,redirector.googlevideo.com
+DOMAIN-SUFFIX,manifest.googlevideo.com
+DOMAIN-SUFFIX,r3---sn-*.googlevideo.com
+
+  # === 20. Cloudflare 基础生态补充（避免误直连/误拦截）===
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflareinsights.com
+DOMAIN-SUFFIX,workers.dev
+DOMAIN-SUFFIX,trycloudflare.com
+
+  # === 21. OpenAI 稳定性补充（API/图片/日志链路）===
+DOMAIN-SUFFIX,chat.openai.com
+DOMAIN-SUFFIX,api.openai.com
+DOMAIN-SUFFIX,platform.openai.com
+
+  # === 22. Claude 补漏（API / 服务入口）===
+DOMAIN-SUFFIX,api.anthropic.com
+
+  # === 23. GitHub 补漏（RAW / Release / API）===
+DOMAIN-SUFFIX,raw.githubusercontent.com
+DOMAIN-SUFFIX,api.github.com
+DOMAIN-SUFFIX,codeload.github.com
+
+  # === 24. 流媒体 CDN 补漏（防播放失败）===
+DOMAIN-SUFFIX,amazonaws.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,akamaihd.net
+
