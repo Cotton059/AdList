@@ -132,6 +132,7 @@ payload:
   - DOMAIN-KEYWORD,youtube
   - DOMAIN-KEYWORD,telegram
   - DOMAIN-KEYWORD,chatgpt
+  - DOMAIN-KEYWORD,pikpak
 
     # === 17. Google Video / GVT 探针补全（你日志刚需）===
   - DOMAIN-SUFFIX,gvt1.com
