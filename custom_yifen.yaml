@@ -3,14 +3,22 @@ payload:
   - DOMAIN-KEYWORD,dmm
   - DOMAIN-SUFFIX,ip.sb
   
-# === Gemini / Google AI（纯AI层）===
+# === Gemini（完整可用闭环）===
 - DOMAIN-SUFFIX,gemini.google.com
 - DOMAIN-SUFFIX,bard.google.com
 - DOMAIN-SUFFIX,makersuite.google.com
 - DOMAIN-SUFFIX,generativelanguage.googleapis.com
-- DOMAIN-SUFFIX,ai.google.dev
 - DOMAIN-SUFFIX,vertexai.googleapis.com
+- DOMAIN-SUFFIX,ai.google.dev
 
-# === 兜底（只保AI页面，不碰API）===
+# === 必须依赖（关键修复）===
+- DOMAIN-SUFFIX,accounts.google.com
+- DOMAIN-SUFFIX,oauth2.googleapis.com
+- DOMAIN-SUFFIX,googleapis.com
+- DOMAIN-SUFFIX,gstatic.com
+- DOMAIN-SUFFIX,ssl.gstatic.com
+- DOMAIN-SUFFIX,googleusercontent.com
+
+# === 兜底 ===
 - DOMAIN-KEYWORD,gemini
 - DOMAIN-KEYWORD,bard
