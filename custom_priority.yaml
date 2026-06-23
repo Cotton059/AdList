@@ -2,3 +2,4 @@ payload:
  # === google相册（优先）===
 - DOMAIN-SUFFIX,photos.googleapis.com
 - DOMAIN-SUFFIX,photosdata-pa.googleapis.com
+- DOMAIN-SUFFIX,www.googleapis.com
