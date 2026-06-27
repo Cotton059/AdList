@@ -7,3 +7,8 @@ payload:
  # === 心动小镇===
 - DOMAIN-SUFFIX,xd.com
 - DOMAIN-SUFFIX,xdcdn.com
+
+ # === lightroom登录专用===
+- DOMAIN-SUFFIX,accounts.apple.com
+- DOMAIN-SUFFIX,appleid.apple.com
+- DOMAIN-SUFFIX,ocsp2.apple.com
