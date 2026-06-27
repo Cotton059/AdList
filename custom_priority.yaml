@@ -3,3 +3,7 @@ payload:
 - DOMAIN-SUFFIX,photos.googleapis.com
 - DOMAIN-SUFFIX,photosdata-pa.googleapis.com
 - DOMAIN-SUFFIX,www.googleapis.com
+
+ # === 心动小镇===
+- DOMAIN-SUFFIX,xd.com
+- DOMAIN-SUFFIX,xdcdn.com
