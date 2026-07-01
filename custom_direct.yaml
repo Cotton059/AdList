@@ -27,6 +27,7 @@ payload:
   - DOMAIN-SUFFIX,im.qq.com
   - DOMAIN-SUFFIX,mail.qq.com
   - DOMAIN-SUFFIX,tencent.com
+  - DOMAIN,rustdesk.103386.xyz
 
   # === 4. 社交平台（国内）===
   - DOMAIN-SUFFIX,weibo.com
